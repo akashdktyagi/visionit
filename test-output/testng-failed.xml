@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.visionit.studentscode.sarang.product.cscart.tc.tc_cscart_buyProduct">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="purchaseDextop"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.visionit.studentscode.sarang.product.cscart.tc.tc_cscart_buyProduct -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
