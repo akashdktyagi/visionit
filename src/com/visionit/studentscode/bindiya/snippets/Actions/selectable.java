@@ -18,7 +18,7 @@ public class selectable {
 		  System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
 		  driver = new ChromeDriver();
 		 driver.manage().window().maximize();
-		// driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+		 driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		 driver.get("https://jqueryui.com/");
 	  }
