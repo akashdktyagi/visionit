@@ -56,7 +56,7 @@ public class tc_cscart_buyProduct
 	  @AfterMethod
 	  public void afterMethod() 
 	  {
-		  
+		  driver.quit();
 	  }
 
 }
