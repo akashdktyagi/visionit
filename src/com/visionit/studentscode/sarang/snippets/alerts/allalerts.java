@@ -31,7 +31,7 @@ public class allalerts
 	  WebElement simpleAlert_btn = driver.findElement(By.xpath("//*[@id=\"content\"]/p[4]/button"));
 	  simpleAlert_btn.click();
 	  driver.switchTo().alert().accept();
-	  Thread.sleep(2000); // to see action is being performed.
+	  Thread.sleep(2000); // to see action is being performed..
   }
   
   @Test(priority=2)
@@ -44,7 +44,7 @@ public class allalerts
 	  WebElement confirmPopUpAlert1 = driver.findElement(By.xpath("//*[@id=\"content\"]/p[8]/button"));
 	  confirmPopUpAlert1.click();
 	  driver.switchTo().alert().dismiss();
-	  Thread.sleep(2000); // to see action is being performed
+	  Thread.sleep(2000); // to see action is being performed.
 	  
   }
   
