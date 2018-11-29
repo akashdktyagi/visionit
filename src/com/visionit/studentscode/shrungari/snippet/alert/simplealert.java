@@ -36,7 +36,7 @@ public class simplealert {
 			simple.click();
 			Thread.sleep(10000);
 			Alert alt=driver.switchTo().alert();
-			alt.accept();//test
+			alt.accept();//test ....
 		}
 		
 		
