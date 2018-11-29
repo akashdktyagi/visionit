@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.visionit.studentscode.sarang.product.cscart.tc.tc_cscart_buyProduct">
+      <class name="com.visionit.studentscode.sarang.snippets.alerts.allalerts">
         <methods>
           <include name="afterMethod"/>
-          <include name="purchaseDextop"/>
+          <include name="simpleAlerts"/>
+          <include name="confirmPopUpAlert"/>
           <include name="beforeMethod"/>
+          <include name="sendkeytoPopUpAlert"/>
         </methods>
-      </class> <!-- com.visionit.studentscode.sarang.product.cscart.tc.tc_cscart_buyProduct -->
+      </class> <!-- com.visionit.studentscode.sarang.snippets.alerts.allalerts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

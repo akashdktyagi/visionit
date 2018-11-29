@@ -53,7 +53,8 @@ public class allalerts
   {
 	  WebElement sendkeytoPopUpAlert = driver.findElement(By.xpath("//*[@id=\"content\"]/p[11]/button"));
 	  sendkeytoPopUpAlert.click();
-	  driver.switchTo().alert().sendKeys("Hi there");
+	  Alert alert = driver.switchTo().alert();
+	  alert.sendKeys("Hi there");
 	  Thread.sleep(5000); // to see action is being performed
 	  WebElement sendkeytoPopUpAlert1 = driver.findElement(By.xpath("//*[@id=\"content\"]/p[11]/button"));
 	  sendkeytoPopUpAlert1.click();
