@@ -3,12 +3,24 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.visionit.studentscode.shrungari.snippet.alert.simplealert">
         <methods>
           <include name="alert1"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.visionit.studentscode.shrungari.snippet.alert.simplealert -->
+=======
+      <class name="com.visionit.studentscode.sarang.snippets.alerts.allalerts">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="simpleAlerts"/>
+          <include name="confirmPopUpAlert"/>
+          <include name="beforeMethod"/>
+          <include name="sendkeytoPopUpAlert"/>
+        </methods>
+      </class> <!-- com.visionit.studentscode.sarang.snippets.alerts.allalerts -->
+>>>>>>> branch 'master' of https://github.com/akashdktyagi/visionit.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
