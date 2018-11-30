@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-<<<<<<< HEAD
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/JAVA software/seleniumJarFiles/selenium-server-standalone-3.10.0.jar"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="C:/Users/Manoj/Desktop/eclipse/Driver/selenium-server-standalone-3.14.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-=======
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/sachin/selenium-server-standalone-3.13.0.jar"/>
-	<classpathentry kind="lib" path="D:/sachin/poi-3.12/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="D:/sachin/poi-3.12/commons-logging-1.1.3.jar"/>
-	<classpathentry kind="lib" path="D:/sachin/poi-3.12/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="D:/sachin/poi-3.12/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="D:/sachin/poi-3.12/poi-3.12-20150511.jar"/>
-	<classpathentry kind="lib" path="D:/sachin/poi-3.12/poi-examples-3.12-20150511.jar"/>
-	<classpathentry kind="lib" path="D:/sachin/poi-3.12/poi-excelant-3.12-20150511.jar"/>
-	<classpathentry kind="lib" path="D:/sachin/poi-3.12/poi-ooxml-3.12-20150511.jar"/>
-	<classpathentry kind="lib" path="D:/sachin/poi-3.12/poi-ooxml-schemas-3.12-20150511.jar"/>
-	<classpathentry kind="lib" path="D:/sachin/poi-3.12/poi-scratchpad-3.12-20150511.jar"/>
-	<classpathentry kind="lib" path="D:/sachin/poi-3.12/xmlbeans-2.6.0.jar"/>
->>>>>>> branch 'master' of https://github.com/akashdktyagi/visionit.git
 	<classpathentry kind="output" path="bin"/>
 </classpath>
