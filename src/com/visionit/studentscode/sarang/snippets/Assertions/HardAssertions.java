@@ -64,7 +64,7 @@ public class HardAssertions {
 		System.setProperty("webdriver.chrome.driver", "C:\\Vision\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		//driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+		///driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com/");
 		String Act = driver.getTitle();
