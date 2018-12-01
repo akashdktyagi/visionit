@@ -33,7 +33,7 @@ public class HardAssertions {
 	}
 	
 	//Proper way to use Assertion with Valid Error Message..
-	//..with comparision of two WebElements
+	//..with comparison of two WebElements
 	@Test(priority=2)
 	public void assert2()
 	{
@@ -58,6 +58,8 @@ public class HardAssertions {
 		Assert.assertTrue(name.contains("Vaidehi"), "Names Are Different");
 	}
 	
+	
+	//Use of Assert.assertFalse
 	@Test(priority=4)
 	public void assert4()
 	{
