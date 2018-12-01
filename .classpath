@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="C:/Users/Manoj/Desktop/eclipse/Driver/selenium-server-standalone-3.14.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+<<<<<<< HEAD
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="D:/sachin/selenium-server-standalone-3.13.0.jar"/>
 	<classpathentry kind="lib" path="D:/sachin/poi-3.12/commons-codec-1.9.jar"/>
@@ -16,5 +18,7 @@
 	<classpathentry kind="lib" path="D:/sachin/poi-3.12/poi-scratchpad-3.12-20150511.jar"/>
 	<classpathentry kind="lib" path="D:/sachin/poi-3.12/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="lib" path="C:/Vision/selenium-server-standalone-3.141.59.jar"/>
+=======
+>>>>>>> branch 'master' of https://www.github.com/akashdktyagi/visionit.git
 	<classpathentry kind="output" path="bin"/>
 </classpath>
