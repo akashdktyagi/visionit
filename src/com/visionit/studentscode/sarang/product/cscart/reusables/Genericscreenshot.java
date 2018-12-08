@@ -1,5 +1,12 @@
 package com.visionit.studentscode.sarang.product.cscart.reusables;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
 import com.visionit.studentscode.sarang.product.cscart.po.po_ele_demo;
 
 public class Genericscreenshot

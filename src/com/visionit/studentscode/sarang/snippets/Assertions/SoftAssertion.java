@@ -1,4 +1,4 @@
-package snippets.Assertions;
+package com.visionit.studentscode.sarang.snippets.Assertions;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
