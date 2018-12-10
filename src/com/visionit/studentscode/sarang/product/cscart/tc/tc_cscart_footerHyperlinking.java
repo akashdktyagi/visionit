@@ -167,7 +167,7 @@ WebDriver driver;
 		"/returns-and-exchanges/", "returnsHyperlinking functionality is not working properly");
 		Reporter.log("returnsHyperlinking is opened");
 		
-		//assert.assertall();
+		///assert.assertall();
 		driver.get(pro.getProperty("url"));
 		System.out.println("All hyperlinking footer links are Checked for CS Cart");
 	  }	

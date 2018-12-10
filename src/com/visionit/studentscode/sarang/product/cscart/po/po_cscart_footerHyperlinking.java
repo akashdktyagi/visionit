@@ -8,7 +8,7 @@ import org.openqa.selenium.support.How;
 public class po_cscart_footerHyperlinking
 {
 
-	WebDriver driver;
+	 WebDriver driver;
 	 
 	@FindBy(how=How.XPATH,using="//*[@id=\"account_info_links_14\"]/li[1]/a")
 	WebElement SignInHyperLinking;
