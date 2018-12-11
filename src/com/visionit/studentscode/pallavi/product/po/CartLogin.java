@@ -1,12 +1,13 @@
-package com.visionit.studentscode.pallavi.fw.product.CsCart.po;
+package com.visionit.studentscode.pallavi.product.po;
 
 import org.openqa.selenium.WebDriver;
+
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import com.visionit.studentscode.pallavi.fw.product.CsCart.reusables.ScreenShots;
+import com.visionit.studentscode.pallavi.product.reusable.ScreenShots;
 
 public class CartLogin 
 {
@@ -37,9 +38,38 @@ public class CartLogin
 	@FindBy(how=How.XPATH,using="//*[@id='tygh_container']/div[3]/div")
 	WebElement errmesg;
 	
+	@FindBy(how=How.XPATH,using="//*[@id='account_info_4']/div[2]/a")
+	WebElement logout;
+	
 	public void login()
 	{
-		login.click();
+		
+		/*
+		try{
+			login.click();	
+		}catch(Exception e){
+			try{
+				login.click();	
+			}catch(Exception e1){
+
+				login.click();	
+			}
+		}
+		*/
+		
+		for (int i=0;i<=15;i++){
+			
+			try{
+				Thread.sleep(1000);
+				login.click();
+				break;
+				
+			}catch(Exception e){
+				//do nothing
+			}//end catch
+			
+		}//end for
+
 	}
 	
 	public void signin()
@@ -59,11 +89,16 @@ public class CartLogin
 	
 	public void errormessage(String name)
 	{
+		
 		if (errmesg.isDisplayed())
 		{
 			ScreenShots s = new ScreenShots();
 			s.getScrrenShot(driver,name );
 		}
+	}
+	public void signout()
+	{
+		logout.getText();
 	}
 	
 }

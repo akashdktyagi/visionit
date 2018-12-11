@@ -1,4 +1,4 @@
-package com.visionit.studentscode.pallavi.fw.product.CsCart.reusables;
+package com.visionit.studentscode.pallavi.product.reusable;
 
 import java.io.FileInputStream;
 import java.util.Properties;

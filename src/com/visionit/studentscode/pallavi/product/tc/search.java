@@ -1,10 +1,9 @@
-package com.visionit.studentscode.pallavi.fw.product.CsCart.tc;
+package com.visionit.studentscode.pallavi.product.tc;
 
 import org.testng.annotations.Test;
 
-
-import com.visionit.studentscode.pallavi.fw.product.CsCart.po.CartSearch;
-import com.visionit.studentscode.pallavi.fw.product.CsCart.reusables.PropertyFile;
+import com.visionit.studentscode.pallavi.product.po.CartSearch;
+import com.visionit.studentscode.pallavi.product.reusable.PropertyFile;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
