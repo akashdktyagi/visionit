@@ -42,16 +42,16 @@ public class po_cscart_buyProduct
 	@FindBy(how=How.XPATH,using="//*[@id=\"button_cart_214\"]")
 	WebElement click_on_addToCart;
 	
-	@FindBy(how=How.XPATH,using="//*[@id=\"sw_dropdown_8\"]/a/span/span[1]")
+	@FindBy(how=How.XPATH,using="//i[@class='ty-minicart__icon ty-icon-moon-commerce filled']")
 	WebElement click_on_mycart;
 	
 	@FindBy(how=How.XPATH,using="//*[@id=\"dropdown_8\"]/div/div[2]/div[2]/a")
 	WebElement click_on_checkout;
 	
-	@FindBy(how=How.XPATH,using="//*[@id=\"step_three_but\"]")
+	@FindBy(how=How.ID,using="step_three_but")
 	WebElement click_on_continue;
 	
-	@FindBy(how=How.XPATH,using="//*[@id=\"credit_card_number_1\"]")
+	@FindBy(how=How.ID,using="credit_card_number_1")
 	WebElement insert_credit_card_no;
 	
 	@FindBy(how=How.XPATH,using="//*[@id=\"credit_card_month_1\"]")
@@ -77,6 +77,10 @@ public class po_cscart_buyProduct
 	
 	@FindBy(how=How.XPATH,using="//*[@id=\"place_order_tab1\"]")
 	WebElement click_on_submit_my_order;
+	
+	//ty-minicart__icon ty-icon-moon-commerce filled
+	
+	//i[@class='ty-minicart__icon ty-icon-moon-commerce filled']
 	
 	public void myaccount()
 	{
