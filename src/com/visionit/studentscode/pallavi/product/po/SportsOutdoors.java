@@ -54,10 +54,13 @@ public class SportsOutdoors
 	public void sliderdisp()
 	{
 		//1st way
+		
 		Actions a1 = new Actions(driver);
 		//a1.dragAndDropBy(priceslider,196,417).release().build().perform();
 		//priceslider.click();
+		
 		//2nd way
+		
 		try{
 		a1.clickAndHold(priceslider).moveByOffset(100, 0).release(priceslider).build().perform();
 		priceslider.click();
@@ -77,6 +80,7 @@ public class SportsOutdoors
 		{
 				//do nothing
 		}//end of catch block 
+		
 		/*Actions a2 = new Actions(driver);
 		a2.dragAndDropBy(priceslider1,196,417).release().build().perform();
 		priceslider1.click();*/
